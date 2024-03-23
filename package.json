@@ -1,0 +1,28 @@
+{
+  "name": "amazon_scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krgarav/amazon_scrapper.git"
+  },
+  "author": "Kumar Gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krgarav/amazon_scrapper/issues"
+  },
+  "homepage": "https://github.com/krgarav/amazon_scrapper#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0",
+    "puppeteer-cluster": "^0.24.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
